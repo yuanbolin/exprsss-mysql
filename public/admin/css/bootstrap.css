@@ -1,0 +1,200 @@
+html,
+body {
+	width: 100%;
+}
+
+
+.box {
+	padding: 0;
+	height: 100%;
+	background: #33485c;
+}
+
+.box:nth-child(2) {
+	background: #f4f4f4;
+}
+
+.box:nth-child(2) .h {
+	background: #2a3b4c;
+	margin: 0;
+	padding: 15px;
+	color: #fff;
+	height: 69px;
+	box-sizing: border-box;
+	font-size: 20px;
+
+}
+
+.box:nth-child(2) .h span {
+	padding: 5px 15px;
+	display: inline-block;
+}
+
+.box:nth-child(2) .h img {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	margin: 5px 0px 5px 15px;
+	display: inline-block;
+}
+
+.box:nth-child(2) .title {
+	margin: 0;
+	padding: 20px;
+	background: #fff;
+	font-size: 25px;
+}
+
+.att {
+	margin: 30px;
+	background: #d9edf7;
+	border-left: 5px solid #5bc0de;
+	padding-left: 10px;
+}
+
+.att .line1 {
+	font-size: 25px;
+	color: #1B6D85;
+	line-height: 40px;
+
+}
+
+.att2 {
+	margin: 30px;
+	border: 1px solid #0a819c;
+}
+
+.att2 .line3 {
+	line-height: 40px;
+	font-size: 25px;
+	padding-left: 10px;
+	color: #fff;
+	background: #0a819c;
+	box-sizing: content-box;
+}
+
+.att .line2 {
+	line-height: 30px;
+}
+
+.box .logo {
+	background: #2f4355;
+	color: #fff;
+	padding: 15px 0;
+	margin: 0;
+}
+
+.panel {
+	border: 0;
+}
+
+.panel .panel-heading {
+	background: #33485c;
+}
+
+.panel .panel-heading a {
+	color: #fff;
+}
+
+.panel .panel-body {
+	background: #2a3b4c;
+	color: #fff;
+	padding-left: 40px;
+	box-sizing: border-box;
+}
+
+.msg {
+	padding: 30px;
+	display: flex;
+
+}
+
+.msg .photo {
+	width: 55px;
+	height: 55px;
+	border-radius: 50%;
+	background: #485b6d;
+}
+.text{
+	min-width: 180px;
+}
+.msg img {
+	margin-top: 5px;
+	width: 45px;
+	height: 45px;
+}
+
+.msg .title {
+	margin-left: 30px;
+	font-size: 25px;
+	color: #fff;
+}
+
+.msg .content {
+	display: flex;
+	margin-left: 30px;
+}
+
+.msg .content span {
+	display: inline-block;
+	flex-grow: 1;
+
+	color: #fff;
+}
+
+.td_photo {
+	width: 120px;
+}
+
+.table {
+	margin: 0;
+}
+
+.btn1,
+.btn2 {
+	color: #fff;
+}
+
+.btn1 {
+	background: #5bc0de;
+}
+
+.btn2 {
+	background: #d9534f;
+}
+.panel-title a{
+	display: block;
+}
+.panel-title .pull-right span{
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s 0.5s;
+	transition: all 0.5s;
+}
+.panel-heading.active{
+	background: red;
+}
+.panel-heading.active .pull-right span{
+	transform: rotate(-90deg);
+}
+.main{
+	overflow: hidden;
+	box-sizing: border-box;
+	height: 100%;
+}
+.left-side{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 300px;
+}
+.right-side{
+	margin-left: 300px;
+	overflow:auto
+}
+.breadcrumb{
+	margin-bottom: 0;
+	padding: 0;
+}
